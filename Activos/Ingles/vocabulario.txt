@@ -1,0 +1,3 @@
+improve = aprender
+spell = deletrear
+Farewells = Despedidas

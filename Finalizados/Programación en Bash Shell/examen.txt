@@ -1,0 +1,64 @@
+¿Si se requiere ejecutar un comando dentro de un script y almacenar su respuesta cuál es la sentencia correcta para realizarlo?
+#defbl variable = $(comando)
+La sentencia case puede evaluar un rango de caracteres
+#defbl Verdadero
+¿Cuál es el formato para declarar una función llamada validarNumeros?
+#defbl validarNumeros (){ ….}
+¿Cuál es el comando que se utiliza para descargar un programa desde internet?
+#defbl wget http://www.utilidades.com/programa.zip
+Para llamar a una función dentro de un programa bash debe crearse antes de realizar la llamada:
+#defbl Verdadero
+¿Qué comando se utiliza para crear un directorio llamado prueba?
+#defbl mkdir prueba
+La programación bash tiene como objetivo poder ejecutar múltiples comandos de forma secuencial para automatizar una tarea en específico:
+#defbl Verdadero
+¿Cuáles son los operadores relacionales que se utilizan en la programación bash?
+#ax1 & | && ||
+#ax1 >> > < <<
+¿Cuál es la forma correcta de pasar opciones a un programa?
+#ax1 ./programa.sh opt1 opt2
+#ax1 ./programa.sh $opt1 $opt2
+Se requiere realizar un programa en bash que permite sacar respaldos de información y que los transfiera de forma empaquetada por la red a otra computadora en la cual se conoce la IP y el lugar a donde se debe transferir el respaldo. ¿Cuál es la forma más óptima de pasar la información?
+#defbl Utilizar un comando de transferencia de información con características de empaquetamiento de forma remota desde al origen al destino.
+En las sentencias de decisión e iteración es necesario respetar los espacios en las condiciones para evitar errores:
+#defbl Verdadero
+¿Dentro del alcance de una variable, ésta no puede ocuparse en otro script a menos que sea visible a nivel del sistema utilizando el comando EXPORT?
+#defbl Verdadero
+¿Una vez creado un script antes de ejecutarlo se tiene que otorgar un permiso de ejecución, con cuál comando se realiza esta acción?
+#defbl chmod +x script.sh
+Para crear un menú de opciones en un programa bash, ¿qué sentencia de iteración se utiliza?
+#defbl while loop
+¿Cuál sentencia se utiliza para leer el contenido de un archivo llamado prueba.txt dentro de un programa bash?
+#defbl cat prueba.txt
+¿Con cuál de los siguientes comandos se puede escribir en un archivo llamado prueba.txt sin utilizar un programa externo?
+#defbl echo texto >> prueba.txt
+El kernel es la parte fundamental del Sistema Operativo (núcleo) que permite gestionar y administrar los recursos de hardware como son la memoria, el tiempo de procesamiento, el sistema de archivos, las entradas/salidas y es donde se ejecutan las aplicaciones:
+#defbl Verdadero
+¿En el caso de envíe un número de 20 argumentos a mi programa bash y necesita recuperar el número 14, cuál de las siguientes sentencias utilizaría?
+#defbl ${14}
+Cuando se captura la información ingresada por el usuario y se utiliza validación del tamaño de campo se puede eliminar la información:
+#defbl Falso
+¿Cuál es el comando que se utiliza para capturar información en un programa shell?
+#defbl read
+¿Cuándo se utiliza la validación de información utilizando expresiones regulares y se requiere tener 2 ocurrencias de una expresión que sentencia se utiliza para definir la expresión?
+#ax1 ^{2}[0-9]$
+#ax1 ^[2][0-9]$
+En una expresión condicional para comparar números, ¿qué expresión se utiliza?
+#defbl [ $variable -eq 10 ]
+¿Cuál de los siguientes comandos es correcto para copiar todos los archivos de un directorio a otro estando en otro directorio?
+#defbl cp -R directorio1/ directorio2/
+Cuando se utiliza la sentencia de iteración for loop se puede iterar arreglos directamente:
+#defbl Verdadero
+¿Para qué se utiliza la sentencia break dentro de un loop?
+#defbl Parar la iteración y salir del loop
+¿Cuál es el comando que se utiliza para realizar un debug de un script y que permita diferenciar los comandos de la salida estándar?
+#defbl bash -x script.sh
+¿Cuál de las siguientes declaraciones es correcta para crear un arreglo?
+#ax1 arregloTmpNumeros=(1,2,3,4)
+#ax1 arregloTmpNumeros=[1,2,3,4]
+¿Con cuál comando se puede empaquetar solamente un archivo simple y no un conjunto de archivos?
+#defbl gzip
+¿Cuál comando para empaquetar soporta poner un password al archivo empaquetado?
+#defbl Zip
+¿Cuál es el formato correcto para declarar un while loop? Considerando que todo está en una línea y que las palabras <condition> y <sentences> serán reemplazadas por una condición lógica y sentencias respectivamente.
+#defbl while [ <condition> ] do <sentences> done

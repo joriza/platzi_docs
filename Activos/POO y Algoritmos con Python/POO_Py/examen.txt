@@ -1,0 +1,38 @@
+#ax2 https://platzi.com/clases/poo-python/
+
+¿Cuáles son las ventajas de los tipos de datos abstractos?
+#ax1 Trazabilidad, multi propósito, escalable.
+#ax2 Decomposición, abstracción, encapsulación
+
+¿Cuál es el elemento que permite decomponer un problema?
+#dbl  Clases
+
+¿Cuál de las siguientes oraciones describe el significado de abstracción?
+#dbl Una interfaz para interactuar con un objeto sin preocuparnos cómo funciona internamente.
+
+¿Cuál es el signo que identifica a un decorador?
+#dbl @
+
+El concepto de herencia al implementarse en clases:
+#ax1 Nos permite controlar los tipos y operadores.
+#ax2 Modelar un jerarquía de clases
+
+¿Qué es la complejidad algorítmica?
+#ax1 Es la evaluación de la dificultad para implementar una función en un programa.
+
+¿Cuántas veces correrá el for loop en el siguiente caso?
+def my_func(x):
+    respuesta = 0
+    for i in range(2000):
+        respuesta += 1
+    return respuesta
+#ax1 1999
+
+¿Qué es el crecimiento asintótico?
+#ax1 Es el crecimiento de una función hasta generar una hipérbola.
+
+¿Cómo se declara una clase en Python?
+#dbl class
+
+¿Qué es el polimorfismo?
+#dbl Es la habilidad de tomar varias formas. Nos permite cambiar el comportamiento de una superclase para adaptarlo a la subclase.

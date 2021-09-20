@@ -56,4 +56,11 @@ si estas en la terminal de ubuntu
 5 : pip3 install pyunitreport
 y listo ya puedes disfrutar del resto del curso.
 
-## [¡Hola, mundo](https://platzi.com/clases/1927-intro-selenium/29387-hola-mundo/)
+## 6 [¡Hola, mundo!](https://platzi.com/clases/1927-intro-selenium/29387-hola-mundo/)
+
+https://platzi.com/tutoriales/1751-webscraping/4981-crear-un-entorno-virtual-en-python/
+
+
+
+
+https://chromedriver.chromium.org/downloads

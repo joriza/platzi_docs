@@ -41,4 +41,19 @@ No soporta nuevos navegadores tan rápido.
 No genera reportes o resultados de pruebas.  
 Requiere de saber programar.  
 
-## []()
+## 4 [Configurar entorno de trabajo](https://platzi.com/clases/1927-intro-selenium/29386-configurar-entorno-de-trabajo/)
+
+
+- Python versión superior a versión 3.6
+- Selenium
+- PyUnitReport
+
+si estas en la terminal de ubuntu
+1 : sudo apt update
+2 : apt install python3-pip
+3 : pip3 --version
+4 : pip3 install selenium
+5 : pip3 install pyunitreport
+y listo ya puedes disfrutar del resto del curso.
+
+## [¡Hola, mundo](https://platzi.com/clases/1927-intro-selenium/29387-hola-mundo/)

@@ -27,7 +27,7 @@ Falso
 6.
 Empiezo mi proyecto con una instancia EC2 de 1VCPU y 1GB RAM. Eso funcionó muy bien para mi ambiente de desarrollo inicial. Sin embargo, ahora quiero hacer pruebas de escalabilidad en ese ambiente de desarrollo, por lo que ahora necesito al menos 8GB de RAM. ¿Cómo podría tener ese mismo ambiente 8GB de RAM?
 
-#ax1 Si entras a EC2 y haces un snapshot, cuando termine ese snapshot la instancia tendrá esos 8GB de RAM
+En la sección de “Running instances” de EC2, le doy stop, modifico el tipo de instancia y la vuelvo a encender
 
 7.
 Tienes un bucket de S3 con todos los reportes financieros del año. Mes con mes, la Directora de Finanzas te envía un correo con el nuevo reporte. Si quisieras permitirle subir su información de forma sencilla y eficiente, tu harías:
@@ -42,7 +42,7 @@ Falso
 9.
 Si yo quisiera implementar un sitio web usando el lenguaje de programación Elixir en Elastic Beanstalk, ¿cómo podría hacerlo?
 
-#ax1 Lo empaqueto por vía de ebextensions en PHP
+Puedo poner mi propia imagen de Docker con Elixir
 
 10.
 AWS RDS Aurora es un servicio para poder:
@@ -77,7 +77,7 @@ Solo te harán un cargo temporal de 1 USD (o su equivalente) para comprobar que 
 16.
 Si quisieras que tus archivos estén listos para que todo el mundo los baje en segundos, y que ademas se hagan copias de seguridad en diferentes regiones geográficas, usarías Glacier:
 
-#ax1 Verdadero
+Falso
 
 17.
 Si quisieras un sistema de alta disponibilidad con varios nodos para atender peticiones web, utilizo:
@@ -142,7 +142,7 @@ Falso
 29.
 Si quisiera auditar las actividades realizadas en AWS por cuenta y componente, utilizaría:
 
-CloudWatch
+#ax1 CloudWatch
 
 30.
 En caso de que quisiera migrar mi información de CSV a RDS PostgreSQL, tendría que:

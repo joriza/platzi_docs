@@ -1,4 +1,0 @@
-improve = aprender
-spell = deletrear
-Farewells = Despedidas
-un insight = necesidad insatisfecha

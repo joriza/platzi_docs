@@ -8,3 +8,5 @@
 
 [Eventos semanales de English Academy](https://platzi.com/clases/1944-estrategias-ingles/31975-participa-en-los-eventos-semanales-de-la-escuela-d/)
 
+[Clases del Weekly English Activities](https://platzi.com/clases/english-activities/)
+

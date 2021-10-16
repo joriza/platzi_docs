@@ -170,3 +170,84 @@ FROM posts;
 Cabe mencionar que los operadores LIKE y BETWEEN AND, pueden ser negados con NOT
 NOT LIKE
 NOT BETWEEEN – AND –
+
+## 33 [Utilizando la sentencia WHERE nulo y no nulo](https://platzi.com/clases/1566-bd/19822-utilizando-la-sentencia-where-nulo-y-no-nulo/)
+
+El valor nulo en una tabla generalmente es su valor por defecto cuando nadie le asignó algo diferente. La sintaxis para hacer búsquedas de datos nulos es IS NULL. La sintaxis para buscar datos que no son nulos es IS NOT NULL
+
+## 34 [GROUP BY](https://platzi.com/clases/1566-bd/19823-group-by/)
+
+GROUP BY tiene que ver con agrupación. Indica a la base de datos qué criterios debe tener en cuenta para agrupar.
+
+## 35 [ORDER BY y HAVING](https://platzi.com/clases/1566-bd/19824-order-by-y-having/)
+
+La sentencia ORDER BY tiene que ver con el ordenamiento de los datos dependiendo de los criterios que quieras usar.
+
+    ASC sirve para ordenar de forma ascendente.
+    DESC sirve para ordenar de forma descendente.
+    LIMIT se usa para limitar la cantidad de resultados que arroja el query.
+
+HAVING tiene una similitud muy grande con WHERE, sin embargo el uso de ellos depende del orden. Cuando se quiere seleccionar tuplas agrupadas únicamente se puede hacer con HAVING.
+
+## 35.1 [mapa mental con el resumen de las 35 clases anteriores y esta incluida](https://www.goconqr.com/mindmap/22606096/fundamentos-de-bases-de-datos)
+
+## 36 [El interminable agujero de conejo - Nested queries](https://platzi.com/clases/1566-bd/19825-el-interminable-agujero-de-conejo-nested-queries/)
+
+Significan que dentro de un query podemos hacer otro query. Esto sirve para hacer join de tablas, estando una en memoria. También teniendo un query como condicional del otro.
+
+Este proceso puede ser tan profundo como quieras, teniendo infinitos queries anidados.
+Se le conoce como un producto cartesiano ya que se multiplican todos los registros de una tabla con todos los del nuevo query. Esto provoca que el query sea difícil de procesar por lo pesado que puede resultar.
+
+## 37 [¿Cómo convertir una pregunta en un query SQL?](https://platzi.com/clases/1566-bd/19826-como-convertir-una-pregunta-en-un-query-sql/)
+
+De pregunta a Query
+
+    SELECT: Lo que quieres mostrar
+    FROM: De dónde voy a tomar los datos
+    WHERE: Los filtros de los datos que quieres mostrar
+    GROUP BY: Los rubros por los que me interesa agrupar la información
+    ORDER BY: El orden en que quiero presentar mi información
+    HAVING: Los filtros que quiero que mis datos agrupados tengan
+
+
+Quiero obtener todos los post creados por edgar@com
+
+    SELECT: Lo que quieres mostrar
+        Nickname
+        Titulo del post
+    FROM: De dónde voy a tomar los datos
+        Tabla usuarios y post
+    WHERE: Los filtros de los datos que quieres mostrar
+        Deben de ser de edgar@com
+    GROUP BY: Los rubros por los que me interesa agrupar la información
+        No deseo agrupar
+    ORDER BY: El orden en que quiero presentar mi información
+        por fecha de publicación
+    HAVING: Los filtros que quiero que mis datos agrupados tengan
+
+
+## 38 [Preguntándole a la base de datos](https://platzi.com/clases/1566-bd/19827-preguntandole-a-la-base-de-datos/)
+
+GROUP_CONCAT toma el resultado del query y lo pone como campo separado por comas.
+
+## 40 [¿Qué son y cuáles son los tipos de bases de datos no relacionales?](https://platzi.com/clases/1566-bd/19813-que-son-y-cuales-son-los-tipos-de-base-datos-no-re/)
+
+Respecto a las bases de datos no relacionales, no existe un solo tipo aunque se engloben en una sola categoría.
+
+Tipos de bases de datos no relacionales:
+
+- Clave - valor: Son ideales para almacenar y extraer datos con una clave única. Manejan los diccionarios de manera excepcional. Ejemplos: DynamoDB, Cassandra.
+- Basadas en documentos: Son una implementación de clave valor que varía en la forma semiestructurada en que se trata la información. Ideal para almacenar datos JSON y XML. Ejemplos: MongoDB, Firestore.
+- Basadas en grafos: Basadas en teoría de grafos, sirven para entidades que se encuentran interconectadas por múltiples relaciones. Ideales para almacenar relaciones complejas. Ejemplos: neo4j, TITAN.
+- En memoria: Pueden ser de estructura variada, pero su ventaja radica en la velocidad, ya que al vivir en memoria la extracción de datos es casi inmediata. Ejemplos: Memcached, Redis.
+- Optimizadas para búsquedas: Pueden ser de diversas estructuras, su ventaja radica en que se pueden hacer queries y bú squedas complejas de manera sencilla. Ejemplos: BigQuery, Elasticsearch.
+
+## 41 [Servicios administrados y jerarquía de datos](https://platzi.com/clases/1566-bd/19814-servicios-administrados-y-jerarquia-de-datos/)
+
+Firebase es un servicio de Google donde puedes tercerizar muchos elementos en la nube.
+Jerarquía de datos:
+
+    Base de datos
+    Colección
+    Documento
+

@@ -251,3 +251,24 @@ Jerarquía de datos:
     Colección
     Documento
 
+## 42 [Top level collection con Firebase](https://platzi.com/clases/1566-bd/19815-top-level-collection-con-firebase/)
+
+Como crear una base de datos en Firebase.  
+Como crear una colección.
+
+## 43 [Creando y borrando documentos en Firestore](https://platzi.com/clases/1566-bd/19816-creando-y-borrando-documentos-en-firestore/)
+
+Tipos de datos en Firestore:
+
+- String: Cualquier tipo de valor alfanumérico
+- Number: Soporta enteros y flotantes.
+- Boolenan: Los clásicos valores True y False
+- Map: Permite agregar un documento dentro de otro.
+- Array: Permite agregar un conjunto de datos (soporte multi type) sin nombre e identificador.
+- Null: Indica que no se ha definido un valor.
+- Timestamp: Permite almacenar fechas (guarda el año, mes, día y hora).
+- Geopoint: Guarda una localización geográfica (coordenadas latitud-longitud).
+- Reference: Permite referencia un documento (relaciona dos documentos, no importa su colección).
+
+## 44 [Colecciones vs subcolecciones](https://platzi.com/clases/1566-bd/19828-colecciones-vs-subcolecciones/)
+

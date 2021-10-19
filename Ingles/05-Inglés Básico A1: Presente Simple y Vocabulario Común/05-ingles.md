@@ -18,7 +18,6 @@
 he, she and it = v+s
 
 he plays
-
-solo en afirmativo
+Se agrega s al final del verbo, solo en afirmativo
 
 

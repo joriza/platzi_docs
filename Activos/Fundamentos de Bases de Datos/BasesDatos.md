@@ -250,12 +250,10 @@ Jerarquía de datos:
     Base de datos
     Colección
     Documento
-
 ## 42 [Top level collection con Firebase](https://platzi.com/clases/1566-bd/19815-top-level-collection-con-firebase/)
 
 Como crear una base de datos en Firebase.  
 Como crear una colección.
-
 ## 43 [Creando y borrando documentos en Firestore](https://platzi.com/clases/1566-bd/19816-creando-y-borrando-documentos-en-firestore/)
 
 Tipos de datos en Firestore:
@@ -271,4 +269,28 @@ Tipos de datos en Firestore:
 - Reference: Permite referencia un documento (relaciona dos documentos, no importa su colección).
 
 ## 44 [Colecciones vs subcolecciones](https://platzi.com/clases/1566-bd/19828-colecciones-vs-subcolecciones/)
+## 48 [Bases de datos en la vida real](https://platzi.com/clases/1566-bd/19829-bases-de-datos-en-la-vida-real/)
+
+Hoy en dia, se utilizan diversos tipos de bases de datos segun el problema que se quiera resolver:
+
+- Las bases de datos relacionales, durante mucho tiempo, fueron utilizadas para resolver todo tipo de situaciones, pero al aumentar enormemente el numero de datos a manejar, se volveron ineficientes en muchos casos.
+- Firestore o MongoDB nos permiten obtener los datos actuales de la aplicacion de manera simple. Sin embargo, no nos permite hacer, por ejemplo, queries muy complejos.
+- En una misma disciplina, es probable que haya que utilizar mas de un tipo de bases de datos.
+
+## 49 [Big Data](https://platzi.com/clases/1566-bd/19830-big-data/)
+
+la definición ahora muy popular del big data como las tres Vs:
+
+- Volumen. Las organizaciones recopilan datos de diversas fuentes, incluyendo transacciones comerciales, medios sociales e información de sensores o que se transmite de una máquina a otra. En el pasado, almacenarlos habría sido un problema – pero nuevas tecnologías (como Hadoop) han aligerado la tarea.  
+- Velocidad. Los datos se transmiten a una velocidad sin precedentes y se deben distribuir de manera oportuna. Etiquetas FID, sensores y la medición inteligente crean la necesidad de distribuir torrentes de datos casi en tiempo real.  
+- Variedad. Los datos vienen en toda clase de formatos – desde datos numéricos estructurados en bases de datos tradicionales hasta documentos de texto no estructurados, correo electrónico, video, audio, datos de teletipo bursátil y transacciones financieras.  
+
+Los datos de la actualidad provienen de múltiples fuentes, lo que hace difícil vincular, empatar, depurar y transformar datos entre diferentes sistemas. Sin embargo, es necesario conectar y correlacionar relaciones, jerarquías y múltiples vínculos de datos o sus datos se pueden salir de control en un segundo.
+
+## 50 [Data warehouse](https://platzi.com/clases/1566-bd/19831-data-warehouse/)
+
+En primer lugar, DW no es un producto que pueda ser comprado en el mercado, sino más bien un concepto que debe ser construido. DW es una combinación de conceptos y tecnología que cambian significativamente la manera en que es entregada la información a la gente de negocios. El objetivo principal es satisfacer los requerimientos de información internos de la empresa para una mejor gestión, con eficiencia y facilidad de acceso.  
+El DW puede verse como una bodega donde están almacenados todos los datos necesarios para realizar las funciones de gestión de la empresa, de manera que puedan utilizarse fácilmente según se necesiten.
+
+![Cuadro](https://static.platzi.com/media/user_upload/Data-Warehouse-1024x525-a5e0323c-f4a3-4850-a21d-f427a638dd11.jpg)
 

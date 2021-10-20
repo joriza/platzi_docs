@@ -294,3 +294,12 @@ El DW puede verse como una bodega donde están almacenados todos los datos neces
 
 ![Cuadro](https://static.platzi.com/media/user_upload/Data-Warehouse-1024x525-a5e0323c-f4a3-4850-a21d-f427a638dd11.jpg)
 
+## 51 [Data mining](https://platzi.com/clases/1566-bd/19832-data-mining/)
+
+El Data Mining se dedica a minar datos, a extraerlos de donde sea que estén (archivos muertos, base de datos actual, etc…) y hacer sentido de ellos para darles un uso.
+
+## 52 [ETL](https://platzi.com/clases/1566-bd/19833-etl/)
+
+ETL son las siglas de Extract, Transform, Load (extraer, transformar y cargar). Se trata de tomar datos de archivos muertos y convertirlos en algo que sea de utilidad para el negocio.  
+También ayuda a tomar los datos vivos de la aplicación, transformarlos y guardarlos en un data warehouse periódicamente.
+

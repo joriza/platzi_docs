@@ -298,8 +298,35 @@ El DW puede verse como una bodega donde están almacenados todos los datos neces
 
 El Data Mining se dedica a minar datos, a extraerlos de donde sea que estén (archivos muertos, base de datos actual, etc…) y hacer sentido de ellos para darles un uso.
 
+Data Mining: Es literal picar piedra, es decir, debido a que el orden en que se guardaban estos datos no era el mas optimo o el mas eficaz nos toca como data miners intentar buscar en todos esos datos y sacar informacion util que ayude en las decisiones de negocio. En si no se refiere a una base de datos sino a un conjunto de tecnicas para extraer informacion valiosa para las empresas.
+
 ## 52 [ETL](https://platzi.com/clases/1566-bd/19833-etl/)
 
 ETL son las siglas de Extract, Transform, Load (extraer, transformar y cargar). Se trata de tomar datos de archivos muertos y convertirlos en algo que sea de utilidad para el negocio.  
 También ayuda a tomar los datos vivos de la aplicación, transformarlos y guardarlos en un data warehouse periódicamente.
 
+ETL: Son las siglas de Extract, Transform, Load. Se trata de tomar datos de archivos muertos y convertirlos en algo que sea de utilidad para el negocio. Tambien ayuda a tomar los datos viveos de la aplicacion, transformarlos y guardarlos en un data warehouse periodicamente. Esta tecnica tiene dos grandes usos: Para el datamining cuando tenemos una base de datos sin orden, sacamos la info, la limpiamos y la guardamos en un data warehouse y ahora si esta ordenada y podemos sacarle provecho a ella. Otro gran caso de uso es mas o menos similar pero cuando lo tenemos que hacer en tiempo real que sirve para hacer etl, es decir, guardamos el estado en bases de datos no relacional que no son muy buenas manejando queries complejos y si tenemos muchas relaciones y con ETL podemos aprovechar la informacion aunque este asi y obtener informacion valiosa. Aunque no existen tecnologias que hagan todo el proceso existen los data pipelines para manejar todas estas fases.
+
+## 53 [Business intelligence](https://platzi.com/clases/1566-bd/19834-business-intelligence/)
+
+En definitiva, una solución BI completa permite:  
+    Observar ¿qué está ocurriendo?  
+    Comprender ¿por qué ocurre?  
+    Predecir ¿qué ocurriría?  
+    Colaborar ¿qué debería hacer el equipo?  
+    Decidir ¿qué camino se debe seguir?  
+
+Business Intelligence: Como el nombre lo dice inteligencia para el negocio, que se refiere a tener los datos de manera oportuna y datos correctos que los ayuden a dar informacion necesaria para hacer las decisiones correctas. Con esto tratamos de hacer sentido a toda la info obtenida y nos ayuda a saber digamos que tipo de audiencia tenemos, el historico de como han ido las ventas en ciertos periodos, es decir, nos permite visualizar las relaciones que tiene nuestro sistema y aplicacion y los clientes entre si. Herramientas para esto: Tableau, QlikView, PowerBI.
+
+## 54 [Machine Learning](https://platzi.com/clases/1566-bd/19835-machine-learning3347/)
+
+Machine Learning: Son una serie de tecnicas que involucran la inteligencia artificial y deteccion de patrones. A diferencia de Business Intelligence que queremos buscar un patron en especifico con la informacion que ya tenemos, mientras que con Machine Learning dado un conjunto de datos buscamos encontrar patrones que no esperas o no eran obvios para un ser humano, ademas que busca saber en un futuro como se comportarian nuestros usuarios. Una bd muy buena para esto es BigQuery que nos sirve como warehouse y ademas nos permite hacer queries que nos podrian ayudar con BusinessIntelligence como son Data Studio. Entre los dos casos de uso principales de ML son: clasificacion y prediccion. 
+## 55 [Data Science](https://platzi.com/clases/1566-bd/19836-data-science1250/)
+
+Data Science: Es aplicar todo lo que hemos visto, tecnicas de ETL, Data Mining, Business Intelligence. Aunque esta mas dirigida a personas con background de estadisticas, hoy en dia tambien participan personas con el perfil de Data Engineering. Al hacer Data Science estamos aplicando todo lo visto en los temas anteriores, no solo a nivel tecnico sino que desarrollamos la experiencia y conocimientos sobre las distintas tecnologias, en que parte del desarrollo de nuestro proyecto tenemos que utilizarlas, etc. Con lo cual el Data Science juega el papel de manager dentro de un equipo de profesionales de datos.
+
+## 56 [¿Por qué aprender bases de datos hoy?](https://platzi.com/clases/1566-bd/20159-por-que-aprender-bases-de-datos-hoy5773/)
+
+## 57 [Bases de datos relacionales vs no relacionales](https://platzi.com/clases/1566-bd/20160-bases-de-datos-relacionales-vs-no-relacionales/)
+
+## 99 [PDF con resumen del curso](https://drive.google.com/file/d/182FDTA4nwxCCxK6_zUDM1Cu8FEfdu4FX/view)

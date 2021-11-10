@@ -1,11 +1,15 @@
+https://platzi.com/clases/c-plus-plus/
 
+15/20
 
 ¿Quién creó el primer compilador de C++?
 #ax1 Steve Wozniak
+#ax1 Dennis Ritchie
+#ax2 Dennis Ritchie
 
 2.
 Fue una de las primeras características que agregó C++ sobre C.
-#ax1 Programación Orientada a Eventos
+#dbl Programación Orientada a Objetos
 
 3.
 C++ es un lenguaje de programación:
@@ -18,14 +22,15 @@ Para realizar programas con C++ es necesario tener un:
 5.
 ¿Cuáles son las etapas del proceso de compilación?
 #dbl Pre-procesamiento, compilación, enlazado y ensamblador.
+#ax2 Atencion que son 4 pasos
 
 6.
 ¿Cuál es el trabajo del compilador?
-#ax1 Convertir código en bytecode.
+#dbl Convertir código fuente en código ejecutable.
 
 7.
-#dbl ¿Cuál es el compilador que viene pre-instalado en las distribuciones del sistema operativo GNU/Linux?
-GCC/G++
+¿Cuál es el compilador que viene pre-instalado en las distribuciones del sistema operativo GNU/Linux?
+#dbl GCC/G++
 
 8.
 ¿Cómo se llaman las instrucciones que comienzan con el símbolo hash o gato (#)?
@@ -37,7 +42,7 @@ GCC/G++
 
 10.
 ¿Qué líneas de código deben terminar en punto y coma?
-#ax1 Las sentencias que le dan órdenes al pre-procesador.
+#dbl Las sentencias que le dan órdenes al computador.
 
 11.
 ¿Qué nos permite hacer la librería iostream?
@@ -49,7 +54,7 @@ GCC/G++
 
 13.
 ¿Cómo se declara una variable en C++?
-#ax1 <nombre> = <valor inicial>
+#dbl <tipo> <nombre> = <valor inicial>;
 
 14.
 ¿Cómo se declara una constante en C++?
@@ -58,6 +63,7 @@ GCC/G++
 15.
 ¿Cuáles de los siguientes son operadores válidos de C++?
 #ax1 "+, -, *, **"
+#ax1 "+, -, ^, %"
 
 16.
 ¿Cuáles son las sentencias condicionales disponibles en C++?
@@ -74,7 +80,11 @@ GCC/G++
 19.
 ¿Cuál es la estructura de una función en C++?
 #ax1 Tipo de retorno, nombre, lista de dependencias, bloque de código.
+#ax1 Tipo de retorno, nombre, lista de argumentos, bloque de código, retorno obligatorio.
 
 20.
 Las siguientes son librerías parte del estándar de C++
 #ax1 iostream, cin, cout, string
+#ax1 iostream, buffer, matrix, core
+#ax2 iostream, string, cmath, exception, array, vector
+

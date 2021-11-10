@@ -1,4 +1,4 @@
-# Fundamentos de Bases de Datos
+# [Fundamentos de Bases de Datos](https://platzi.com/clases/bd/)
 
 ## 2 [Historia de las RDB](https://platzi.com/clases/1566-bd/20196-historia-de-las-rdb/)
 

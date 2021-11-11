@@ -1,5 +1,7 @@
+https://platzi.com/clases/examen/1b6f0665-e84a-4e60-9ebf-d7e4d46f7b79/examen_usuario/
 
-18/30
+9.33 Calificación
+28/30 Aciertos
 
 
 ¿Por que es importante tener un registro de información que perdure en el tiempo?
@@ -11,8 +13,7 @@
 
 3.
 ¿Cuáles son las formas en que una entidad puede ser débil?
-#ax1 Diferencia y completitud
-#ax2 Identidades débiles por identidad y existencia
+#dbl Identidad y existencia
 
 4.
 ¿Qué tipo de palabra se utiliza para denotar una relación entre dos entidades de una base de datos?
@@ -20,11 +21,11 @@
 
 5.
 Diferencia original entre char y varchar
-#ax1 Char es para un caracter y varchar es para un string
+#dbl Char reserva estáticamente en memoria y varchar reserva variablemente
 
 6.
 ¿Cuántas formas normales vimos en clase?
-#ax1 3
+#dbl 4
 
 7.
 ¿Cuál de los siguientes es un RDBMS open source?
@@ -32,7 +33,7 @@ Diferencia original entre char y varchar
 
 8.
 ¿Por qué se les llama servicios administrados?
-#ax1 Yo los administro
+#dbl Los administra una compañía dedicada
 
 9.
 ¿Qué significa la “S” en SQL?
@@ -40,7 +41,7 @@ Diferencia original entre char y varchar
 
 10.
 ¿En qué fase de un proyecto se utiliza más fuertemente el lenguaje DDL?
-#ax1 En el día a día
+#dbl Al inicio
 #ax2 DDL = Data Definition Languaje, para definir la estructura. Se usa al principio.
 
 11.
@@ -57,7 +58,7 @@ La sentencia DROP puede borrar una base de datos (schema) completa
 
 14.
 ¿En qué fase de un proyecto se utiliza más fuertemente el lenguaje DML?
-#ax1 Al inicio
+#dbl En el día a día
 #ax2 DML = Data Manipulation. En el día a día.
 
 15.
@@ -82,13 +83,11 @@ La mayoría de sentencias SQL corren con mínimas modificaciones en cualquier RD
 
 20.
 ¿Cuál es un ejemplo de base de datos optimizada para búsqueda?
-#ax1 Neo4J
-#ax2 Puede seg bigquiry o ElasticSearch
+#dbl Big Query
 
 21.
 ¿Cual es el objeto principal en la base de datos Firestore?
-#ax1 Base de datos
-#ax2 Puede ser Documentos
+#dbl Documento
 
 22.
 Las top level collection son las colecciones que tienen un documento padre
@@ -97,18 +96,20 @@ Las top level collection son las colecciones que tienen un documento padre
 23.
 ¿Cuál de los siguientes es un tipo de dato en Firestore?
 #ax1 Integer
+#ax1 Date
 
 24.
 Utilizamos subcolecciones cuando queremos acceder a sus documentos de manera independiente o son referenciados desde otras colecciones
-#ax1 Cierto
+#dbl Falso
 
 25.
 ¿A que se traducen las entidades de un RDBMS en Firestore?
-#ax1 Documentos
+#dbl Colecciones
 
 26.
 ¿A que se traducen las tuplas de un RDBMS en Firestore?
 #ax1 Objeto
+#ax1 Referencia
 
 27.
 ¿Cuál es el caso de uso principal de una base de datos basada en documentos?

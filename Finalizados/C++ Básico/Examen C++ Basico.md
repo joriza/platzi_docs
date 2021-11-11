@@ -5,7 +5,7 @@ https://platzi.com/clases/c-plus-plus/
 ¿Quién creó el primer compilador de C++?
 #ax1 Steve Wozniak
 #ax1 Dennis Ritchie
-#ax2 Dennis Ritchie
+#ax1 Dennis Ritchie
 
 2.
 Fue una de las primeras características que agregó C++ sobre C.
@@ -22,7 +22,7 @@ Para realizar programas con C++ es necesario tener un:
 5.
 ¿Cuáles son las etapas del proceso de compilación?
 #dbl Pre-procesamiento, compilación, enlazado y ensamblador.
-#ax2 Atencion que son 4 pasos
+#ax2 Atencion que son 4 pasos, no 5.
 
 6.
 ¿Cuál es el trabajo del compilador?
@@ -62,8 +62,7 @@ Para realizar programas con C++ es necesario tener un:
 
 15.
 ¿Cuáles de los siguientes son operadores válidos de C++?
-#ax1 "+, -, *, **"
-#ax1 "+, -, ^, %"
+#dbl "+, -, *, /"
 
 16.
 ¿Cuáles son las sentencias condicionales disponibles en C++?
@@ -81,10 +80,8 @@ Para realizar programas con C++ es necesario tener un:
 ¿Cuál es la estructura de una función en C++?
 #ax1 Tipo de retorno, nombre, lista de dependencias, bloque de código.
 #ax1 Tipo de retorno, nombre, lista de argumentos, bloque de código, retorno obligatorio.
+#ax1 Nombre, lista de argumentos, bloque de código, tipo de retorno.
 
 20.
 Las siguientes son librerías parte del estándar de C++
-#ax1 iostream, cin, cout, string
-#ax1 iostream, buffer, matrix, core
-#ax2 iostream, string, cmath, exception, array, vector
-
+#dbl iostream, fstream, cmath, string

@@ -1,4 +1,4 @@
-# Curso de API REST
+# [Curso de API REST](https://platzi.com/clases/api-rest/)
 
 ## 3 [Qué es y cómo funciona el protocolo HTTP](https://platzi.com/clases/1638-api-rest/21614-que-es-y-como-funciona-el-protocolo-http/)
 

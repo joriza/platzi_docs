@@ -18,11 +18,11 @@ Son algunas de las características de Python como lenguaje:
 
 2.
 Son algunas de las operaciones esenciales en las estructuras de datos:
-#dblAñadir un elemento, remover elementos y saber si está presente un elemento específico.
+#dbl Añadir un elemento, remover elementos y saber si está presente un elemento específico.
 
 3.
 ¿Qué es una colección de datos?
-Un grupo de cero o más elementos que pueden tratarse como una unidad conceptual.
+#dbl Un grupo de cero o más elementos que pueden tratarse como una unidad conceptual.
 
 4.
 ¿Un dato con valor None es equivalente a cero (0)?
@@ -43,6 +43,7 @@ Son las dos principales categorías de estructuras de datos:
 8.
 ¿En qué caso es conveniente utilizar un array?
 #ax1 En cualquier situación que se puedan utilizar listas.
+#dbl Cuando conozco la cantidad de datos que almacenaré como en un menú de opciones.
 
 9.
 ¿Qué métodos debe tener un array al crearse?
@@ -91,10 +92,11 @@ En general, ¿qué se necesita para realizar operaciones como insertar o elimina
 20.
 Son métodos básicos de los stacks para añadir y remover elementos:
 #ax1 append() y remove()
+#dbl push() y pop()
 
 21.
 ¿Cuál es el principio fundamental de los queues?
-#ax1 LIFO (Last-In, First-Out).
+#dbl FIFO (First-In, First-Out).
 
 22.
 Son métodos básicos de los queues para añadir y remover elementos:

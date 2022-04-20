@@ -1,0 +1,144 @@
+Curso Profesional de Python
+¡No te rindas!
+
+Necesitas una calificación mínima de 9.0 para aprobar.
+Vuelve a intentarlo en 05 horas, 48 minutos, 35 segundos
+
+6.67
+Calificación
+
+20/30
+Aciertos
+
+1.
+¿De qué tipo es el lenguaje Python?
+Interpretado
+
+2.
+¿Qué es el Garbage Collector?
+Es una parte del motor de Python que se encarga de borrar las variables u objetos que ya no se usan.
+
+3.
+¿Qué guarda la carpeta __pycache__?
+El bytecode de tu proyecto.
+
+4.
+https://platzi.com/clases/2397-python-profesional/39542-organiza-los-archivos-de-tus-proyectos/
+Un módulo es un conjunto de paquetes
+#ax1 Verdadero
+
+5.
+¿Qué es un módulo?
+Es cualquier archivo de Python. Generalmente, contiene código que puedes reutilizar.
+
+6.
+https://platzi.com/clases/2397-python-profesional/39542-organiza-los-archivos-de-tus-proyectos/
+El siguiente archivo establece que una carpeta determinada es un paquete
+#ax1 __package__.py
+#ax2 __init__.py
+
+7.
+Los lenguajes de tipado estático verifican los errores de tipado en:
+Tiempo de compilación.
+
+8.
+Los lenguajes de tipado dinámico verifican los errores de tipado en:
+Tiempo de ejecución.
+
+9.
+https://platzi.com/clases/2397-python-profesional/39524-tipado-estatico-en-python/
+¿Qué módulo se utiliza para verificar los errores de tipado en un proyecto escrito en Python?
+#ax1 statictype
+#ax2 mypy
+
+10.
+https://platzi.com/clases/2397-python-profesional/39524-tipado-estatico-en-python/
+Selecciona la forma correcta de declarar una variable de tipo string en Python:
+#ax1 str my_var = "Hello World"
+
+11.
+https://platzi.com/clases/2397-python-profesional/39524-tipado-estatico-en-python/
+La siguiente función recibe un entero y un flotante como parámetros, y devuelve un booleano:
+#ax1 def numbers(num1: integer, num2: float) -> boolean: pass
+
+12.
+La ventaja de aplicar tipado estático al código es:
+Todas las respuestas son correctas.
+
+13.
+¿Una variable definida en el scope de una función puede ser leída en el scope global?
+Falso
+
+14.
+¿Qué es una nested function?
+Una función definida dentro de otra función.
+
+15.
+https://platzi.com/clases/2397-python-profesional/39527-closures/
+Una nested function puede leer una variable de un scope superior
+#ax1 Falso
+
+16.
+https://platzi.com/clases/2397-python-profesional/39527-closures/
+¿Cuál de las siguientes condiciones no es necesaria para encontrar un closure?
+#ax1 La nested function debe referenciar un valor de un scope superior.
+
+17.
+¿Dónde aparecen los closures?
+Todas las respuestas son correctas.
+
+18.
+¿Qué es el azúcar sintáctico o sugar syntax?
+Es un añadido o abreviación de la sintaxis oficial de una pieza de código para hacer más fácil su comprensión y escritura.
+
+19.
+¿Qué es un decorador?
+Es una función que recibe como parámetro otra función, le añade cosas, y retorna una función diferente.
+
+20.
+https://platzi.com/clases/2397-python-profesional/39531-iteradores/
+Un iterador permite guardar una secuencia de datos infinita
+#ax1 Falso
+
+21.
+¿Cuál es la función que permite obtener el inmediatamente siguiente elemento de un iterador?
+next
+
+22.
+¿Qué hace un generador con el estado de una función?
+Lo almacena hasta la siguiente aparición de la palabra clave yield.
+
+23.
+¿Cuál de los siguientes objetos no es un iterable?
+12345
+
+24.
+¿Cómo obtengo el siguiente número de la sucesión de Fibonacci?
+Sumo los dos números anteriores.
+
+25.
+¿Cuántas veces puede iterarse un generador?
+Una vez.
+
+26.
+https://platzi.com/clases/2397-python-profesional/39535-sets/
+¿Qué son los conjuntos?
+#ax1 Una colección ordenada de elementos mutables y que pueden repetirse.
+
+27.
+¿Cuál es el resultado de la unión de dos conjuntos?
+Un conjunto con los elementos de ambos.
+
+28.
+¿Cuál es el resultado de la diferencia simétrica de dos conjuntos?
+Un nuevo conjunto que contiene los elementos de ambos excepto los compartidos.
+
+29.
+https://platzi.com/clases/2397-python-profesional/39536-operaciones-con-sets/
+¿Cuál de las siguientes funciones no permite añadir elementos a un set?
+#ax1 update
+
+30.
+¿Qué módulo nos permite trabajar con zonas horarias dentro de Python?
+pytz
+Regresar

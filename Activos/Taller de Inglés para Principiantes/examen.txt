@@ -4,13 +4,14 @@ Taller de Inglés para Principiantes
 Necesitas una calificación mínima de 9.0 para aprobar.
 Vuelve a intentarlo en 05 horas, 56 minutos, 07 segundos
 
-5.56
+7.78
 Calificación
 
-10/18
+14/18
 Aciertos
 
 1.
+https://platzi.com/clases/2005-taller-principiantes/31162-greetings/
 It's a _____ to meet you.
 #ax1 nice
 
@@ -21,10 +22,12 @@ too
 3.
 How ___ you?
 #ax1 do
+#dbl are
 
 4.
 I'm ____.
 #ax1 student
+#dbl well
 
 5.
 _____ me!
@@ -57,26 +60,33 @@ number
 12.
 How do you ___ that?
 #ax1 speak
+#ax1 work
 
 13.
 What is his ___ ?
 #ax1 phone
+#dbl job
 
 14.
 He's ___ Colombia.
 from
 
 15.
+https://platzi.com/clases/2005-taller-principiantes/31180-first-day-of-work/
 I have 4 folders in my hand, ___ are mine.
 #ax1 that
+#ax1 this
 
 16.
+https://platzi.com/clases/2005-taller-principiantes/31180-first-day-of-work/
 You have 1 folder on your computer, ___ is yours.
 #ax1 this
+#ax1 these
 
 17.
 That is ____ computer.
 #ax1 John
+#dbl John's
 
 18.
 We have a ____________.

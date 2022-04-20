@@ -20,9 +20,11 @@ Gestionar los flujos de trabajo.
 Al estar ocupados solo realizamos tareas sin pensar en su impacto.
 
 3.
+https://platzi.com/clases/1749-gestion-tiempo/24664-soy-productivo/
 La eficacia es el punto óptimo entre:
 #ax1 El tiempo que dedicamos y la cantidad de las tareas que producimos.
 #ax1 Todas las opciones son correctas.
+#ax1 La mediocridad y el perfeccionismo.
 
 4.
 ¿Por qué necesitas aprender a gestionar el tiempo en las tareas compartidas con otras personas?
@@ -75,6 +77,10 @@ Dividir actividades en problemas más pequeños.
 ¿Qué recomendarías a alguien que desee manejar mejor su tiempo?
 Autoconocimiento y persistencia
 
-10.
 Son herramientas análogas:
 #ax1 Trello, planeadores, Forest y tableros.
+#dbl Agendas, cuadernos, notas adhesivas y tableros.
+
+
+Una buena pregunta para autoevaluar mi gestión del tiempo son todas las siguientes excepto:
+¿Es mejor una agenda electrónica o una en papel?

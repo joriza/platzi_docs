@@ -25,7 +25,7 @@ El bytecode de tu proyecto.
 4.
 https://platzi.com/clases/2397-python-profesional/39542-organiza-los-archivos-de-tus-proyectos/
 Un módulo es un conjunto de paquetes
-#ax1 Verdadero
+Falso
 
 5.
 ¿Qué es un módulo?
@@ -35,7 +35,7 @@ Es cualquier archivo de Python. Generalmente, contiene código que puedes reutil
 https://platzi.com/clases/2397-python-profesional/39542-organiza-los-archivos-de-tus-proyectos/
 El siguiente archivo establece que una carpeta determinada es un paquete
 #ax1 __package__.py
-#ax2 __init__.py
+#dbl __init__.py
 
 7.
 Los lenguajes de tipado estático verifican los errores de tipado en:
@@ -49,17 +49,21 @@ Tiempo de ejecución.
 https://platzi.com/clases/2397-python-profesional/39524-tipado-estatico-en-python/
 ¿Qué módulo se utiliza para verificar los errores de tipado en un proyecto escrito en Python?
 #ax1 statictype
-#ax2 mypy
+#dbl mypy
 
 10.
 https://platzi.com/clases/2397-python-profesional/39524-tipado-estatico-en-python/
+Desde 3.6 tiene tipado estático
 Selecciona la forma correcta de declarar una variable de tipo string en Python:
 #ax1 str my_var = "Hello World"
+#dbl my_var: str = "Hello World"
 
 11.
 https://platzi.com/clases/2397-python-profesional/39524-tipado-estatico-en-python/
 La siguiente función recibe un entero y un flotante como parámetros, y devuelve un booleano:
+Desde 3.9 permite tipos de datos que son estructura (List Dict Tuple) sino se puede usar la librería typing.
 #ax1 def numbers(num1: integer, num2: float) -> boolean: pass
+#dbl def numbers(num1: int, num2: float) -> bool: pass
 
 12.
 La ventaja de aplicar tipado estático al código es:
@@ -76,12 +80,13 @@ Una función definida dentro de otra función.
 15.
 https://platzi.com/clases/2397-python-profesional/39527-closures/
 Una nested function puede leer una variable de un scope superior
-#ax1 Falso
+Verdadero
 
 16.
 https://platzi.com/clases/2397-python-profesional/39527-closures/
 ¿Cuál de las siguientes condiciones no es necesaria para encontrar un closure?
 #ax1 La nested function debe referenciar un valor de un scope superior.
+#ax2 La nested function debe referenciar un valor de un scope superior
 
 17.
 ¿Dónde aparecen los closures?
@@ -99,6 +104,7 @@ Es una función que recibe como parámetro otra función, le añade cosas, y ret
 https://platzi.com/clases/2397-python-profesional/39531-iteradores/
 Un iterador permite guardar una secuencia de datos infinita
 #ax1 Falso
+#dbl Verdadero
 
 21.
 ¿Cuál es la función que permite obtener el inmediatamente siguiente elemento de un iterador?
@@ -124,6 +130,7 @@ Una vez.
 https://platzi.com/clases/2397-python-profesional/39535-sets/
 ¿Qué son los conjuntos?
 #ax1 Una colección ordenada de elementos mutables y que pueden repetirse.
+#dbl Una colección desordenada de elementos únicos e inmutables.
 
 27.
 ¿Cuál es el resultado de la unión de dos conjuntos?
@@ -137,8 +144,10 @@ Un nuevo conjunto que contiene los elementos de ambos excepto los compartidos.
 https://platzi.com/clases/2397-python-profesional/39536-operaciones-con-sets/
 ¿Cuál de las siguientes funciones no permite añadir elementos a un set?
 #ax1 update
+#dbl append
 
 30.
 ¿Qué módulo nos permite trabajar con zonas horarias dentro de Python?
 pytz
+
 Regresar

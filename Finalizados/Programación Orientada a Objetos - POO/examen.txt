@@ -77,6 +77,7 @@ class
 https://platzi.com/clases/1474-oop/16687-objetos-metodo-constructor-y-su-sintaxis-en-codigo/
 ¿Cuál es el famoso método que nos permite generar la inicialización de un objeto?
 #ax1 new
+#ax2 constructor
 
 
 17.

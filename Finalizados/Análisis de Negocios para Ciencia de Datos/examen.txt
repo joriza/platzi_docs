@@ -52,34 +52,42 @@ R
 ¿Cuándo usamos la expresión GROUP BY de SQL?
 #ax1 Siempre que una variable dentro de SELECT sí esté agrupada.
 #ax1 En todos los valores que incluyan una suma o recuento.
+#dbl Siempre que una variable dentro de SELECT no esté agrupada.
 
 11.
 ¿Cuál de las siguientes consultas en SQL nos permite encontrar CUÁNTAS ventas se hicieron en febrero?
 #ax1 SELECTSUM (id) FROM VENTAS WHEREmonth = 2
 #ax1 SELECTSUM (id) FROM VENTAS WHEREmonth = ‘2
+#dbl SELECTCOUNT (DISTINCTid) FROM VENTAS WHEREmonth = 2
 
 12.
+https://platzi.com/clases/2069-negocios-data-science/33438-que-es-y-como-usar-una-base-de-datos-relacional-co/
 ¿Cuál de las siguientes consultas en SQL nos permite encontrar QUÉ CLIENTES únicos hicieron una compra en el año 2020?
 #ax1 SELECT (DISTINCT client_id) FROM VENTAS WHEREyear = 2020
 #ax1 SELECT client_id FROM VENTAS WHEREyear = 2020
+#ax1 SELECT SUM (client_id) FROM VENTAS WHEREyear = 2020
 
 13.
 Los cookies de una página web son capaces de recolectar nuestra información personal. Esta afirmación es:
 Verdadera
 
 14.
+https://platzi.com/clases/2069-negocios-data-science/33181-aplica-tecnicas-de-storytelling-para-convertir-pro/
 Las técnicas de storytelling nos permiten:
 #ax1 Basarnos en datos históricos para programar nuestro análisis.
+#ax1 Programar o escribir código de una manera más visual.
 
 15.
 ¿Cuál es la estructura de un análisis de caída de ventas de un mes?
 #ax1 Qué: incrementar las ventas. Por qué: necesitamos mantener los flujos de entrada de dinero en la empresa. Cómo: buscando soluciones para incrementar las ventas.
 #ax1 Qué: análisis de ventas del año. Por qué: crear un cuadro de control general. Cómo: medir todas las variables de ventas para encontrar patrones.
+#dbl Qué: las ventas cayeron de manera anómala. Por qué: explorar variables que expliquen el resultado. Cómo: encontrar efectos cíclicos y cambios en nuestras variables explicativas.
 
 16.
 ¿Cuál de los siguientes es un ejemplo de análisis cuantitativo?
 #ax1 Escuchar y analizar las llamadas telefónicas recibidas en cierto departamento.
 #ax1 Analizar los mensajes en las redes sociales de los usuarios.
+#dbl Identificar las ventas que se hicieron por establecimiento.
 
 17.
 ¿Qué tipo de dato nos permite analizar información cualitativa?
@@ -100,6 +108,5 @@ Verdadera
 21.
 ¿Qué debes hacer si tu análisis muestra que algunas tiendas de nuestro negocio tienen pérdidas?
 Evaluar los resultados y plantearnos el cierre de algunas sedes.
-Regresar
 
-Verdadera
+Un caso de negocio tiene que partir de una hipótesis. Esta afirmación es:
